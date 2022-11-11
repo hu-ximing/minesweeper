@@ -1,0 +1,12 @@
+html {
+    font-size: larger;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto;
+}
+
+li {
+    margin: 20px 0;
+}
