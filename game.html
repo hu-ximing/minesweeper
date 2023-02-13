@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mines</title>
+    <link href="styles/game.css" rel="stylesheet">
+    <link href="styles/theme.css" rel="stylesheet">
+    <script src="scripts/game.js" defer></script>
+    <script src="scripts/game1.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Mines</h1>
+
+    </header>
+
+    <nav>
+        <label for="select-theme">theme: </label>
+        <select id="select-theme">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+        </select>
+        <ul>
+            <li><a href="about.html" target="_blank">about</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <table id="mine-field"></table>
+        </section>
+
+        <aside>
+            <div id="flag-counter">
+                <img src="images/icons/flag_black.svg" alt="flag icon" width="40">
+                <label>0/n</label>
+            </div>
+            <div id="timer">
+                <img src="images/icons/timer_black.svg" alt="timer icon" width="40">
+                <label>00:00</label>
+            </div>
+            <button id="start-over">Start Over</button>
+            <button id="change-difficulty">Change Difficulty</button>
+            <button id="pause">Pause</button>
+        </aside>
+
+    </main>
+
+
+</body>
+
+</html>
